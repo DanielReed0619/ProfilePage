@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+.nav{
+    justify-content: space-between;
+    display: flex;
+    width: inherit;
+    height: 80px;
+    background-color: black;
+}
+
+.profile{
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    display: flex;
+    height: 80px;
+    width: 50%;
+}
+
+.profile h1{
+    margin: 0px;
+}
+
+.profile ul{
+    display: flex;
+    list-style-type: none;
+
+}
+
+.profile ul li{
+    margin: 20px;
+}
+
+
+button{
+    color: white;
+    border-radius: 20pt;
+    width: 100px;
+    margin: auto;
+    height: 30px;
+    background-color: #17a2b8;
+    justify-self: flex-end;
+}
+
+button:hover{
+    border: 5px white;
+}
+
+
+.content{
+    justify-content: space-between;
+    margin: auto;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    flex: 2;
+    width: 700px;
+    height: inherit;
+    background-color: white;
+}
+
+
+#userinfo{
+    min-width: 300px;
+    height: 60%;
+    width: 550px;
+    border: 5px solid lightgray;
+}
+
+#education{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    height: 30%;
+    width: 550px;
+    border: 5px solid lightgray;
+}
+
+#edu, #school, #time, #stack{
+    padding-top: 20px;
+    flex: 1;
+    width: inherit;
+}
+
+#school{
+    font-size: 25px;
+}
+
+#time{
+    color: grey;
+}
+
+
+#edu{
+    background-color: black;
+    color: white;
+}
+
+.container2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    height: inherit;
+    background-color: white;
+}
+
+#requests, #friends{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: inherit;
+    border: 5px solid lightgray;
+}
+
+#adbuttdiv{
+    position: none;
+    width: 40%;
+    display: flex;
+    align-content: center;
+}
+
+#adbutt{
+    margin: 20px 0px 0px 10px;
+    height: 30px;
+    width: 30px;
+}
+
+#connection{
+    flex: 1;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+}
+
+#connection p{
+    margin: auto;
+}
+
+#twobutt{
+    border-radius: 50%;
+    margin: 10px 0px 0px 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#fihundobutt{
+    border-radius: 20px;
+    margin: 10px 0px 0px 10px;
+    width: 60px;
+    height: 40px;
+}
+
+#requestuser p{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30%;
+}
+
+#requestuser{
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+}
+
+#requestuserimg{
+    width: 20%;
+    height: inherit;
+}
+
+#requestuserimg img{
+    border-radius: 50%;
+    outline: none;
+    margin: 10px 0px 0px 10px;
+    box-shadow: none;
+    height: 40px;
+}
+
+#connection{
+    background-color: black;
+}
+
+#friends{
+    height: 50%;
+    width: inherit;
+    border: 5px solid lightgray;
+}
+
+#view{
+    display: flex;
+    height: 40px;
+    border-top: 5px solid lightgray;
+}
+
+#vmlink{
+    margin: 10px 0px 0px 20px;
+    height: inherit;
+    width: 100px;
+}
+
+
+.card{
+    padding-top: 100px;
+    display: flex;
+    margin: auto;
+    background-color: #17a2b8;
+    width: inherit;
+    height: inherit;
+}
+
+
+
+#info{
+    
+    /*margin-top: 70px;*/
+    margin-top: auto;
+    background-color: white;
+    width: 550px;
+    height: 300px;
+}
+
+h1{
+    margin-left: 50px;
+    margin-top: 70px;
+    height: 40px;
+}
+
+#mainicon{
+    box-shadow: 0px 0px 5px gray;
+    border: 5px solid white;
+    display: flex;
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: -50px;  
+    position: absolute;
+}
+
+#location{
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height:60px;
+    width: inherit;
+}
+
+h4{
+    margin: 5px 0px 0px 80px;
+    width: 300px;
+}
+
+#info img{
+    margin: 0px 0px 0px 50px;
+    border: none;
+    box-shadow: none;
+    height: 20px;
+}
+
+p{
+    margin-top: 0px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#location a{
+    font-size: 15px;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px 0px 0px 80px;
+    width: 300px;
+} 
